@@ -58,7 +58,7 @@ else:
     input_df = user_input_features()
 
 # Combine user input features with the entire dataset
-train_df = pd.read_csv('train_v2.csv')
+train_df = pd.read_csv('Train_v2.csv')
 train = train_df.drop(columns=['uniqueid', 'bank_account'])
 df = pd.concat([input_df, train])
 

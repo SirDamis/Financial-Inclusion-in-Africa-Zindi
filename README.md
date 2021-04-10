@@ -23,4 +23,4 @@ Data was gotten from [Zindi](https://zindi.africa/competitions/financial-inclusi
 ## Models: An ensemble of three models(XGBoost, Catboost, LightGBM) was used. The model was trained using StratifiedKFold on split of 25. Training was done on CPU. Saved model as a pickle file.
 
 ## Deployment
-The model was deployed using Streamlit. Deployed web app can be accessed using this [link]()
+The model was deployed using Streamlit. Deployed web app can be accessed using this [link](https://share.streamlit.io/sirdamis/financial-inclusion-in-africa-zindi/main/app.py)
